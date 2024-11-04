@@ -54,7 +54,7 @@ We can artifact copied to ansible-config-artifact/ directory.
 
 
 
-##Step-2 -Refactor Ansible by importing other playbooks into site.yml
+## Step-2 -Refactor Ansible by importing other playbooks into site.yml
 - Setting Up for Refactoring.
     - Ensure you have pulled the latest code from the master (main) branch. This is best practice and to ensure your project is always updated with the latest code.
       ```
