@@ -13,11 +13,13 @@
       ```
       git checkout refactor
       ```
-      ![image](https://github.com/user-attachments/assets/b24f78e2-90d8-4e9a-8fa9-abcb89fd9876)
+![image](https://github.com/user-attachments/assets/75606edd-336f-4511-a093-46ed416175af)
+
 
 -  Create a site.yml file in the playbooks folder. This will serve as the entry point to all infrastructer configurations.
 
-   ![image](https://github.com/user-attachments/assets/a1166aad-6d94-494b-9c82-0f449a3e9bc1)
+![image](https://github.com/user-attachments/assets/c0c18572-4192-40c0-8d09-dfdfe91751ea)
+
 
 -  Create a static-assignments folder at the root of the repository for organizing child playbooks.
 
@@ -25,7 +27,8 @@
 
 -  Move common.yml file into the newly created static-assignments folder.
 
-   ![image](https://github.com/user-attachments/assets/57f093e9-0c5b-4d0b-9c9c-72912dbd2b2a)
+ ![image](https://github.com/user-attachments/assets/fce0d696-299e-4e1e-87ed-5a158f49c5e0)
+
 
 -  Inside site.yml file, import common.yml playbook.
 
@@ -49,19 +52,23 @@
 └── playbooks
     └── site.yml
 ```
-![image](https://github.com/user-attachments/assets/8795675b-8959-4088-8e3d-aad1ee9d914a)
+![image](https://github.com/user-attachments/assets/18ee177d-2dc1-4b83-8964-dc49f0d44b3a)
+
 
 -  Run ansible-playbook command against the dev environment.
 
 Push to your github repo and create a pull request, carefully check codes and merge into main branch.
-![image](https://github.com/user-attachments/assets/338fe370-5236-491d-bc7e-aa157b37e674)
+![image](https://github.com/user-attachments/assets/0a5a46be-3aa5-4d4b-9e96-f0661c8c861c)
+
+
 
 New Branch Got updated on remote repository.
 ![image](https://github.com/user-attachments/assets/3dfe22c6-e2ec-4fe7-ae02-bcdb2f1cc47c)
 
 merging the code through PR (Pull Request.)
 
-![image](https://github.com/user-attachments/assets/df6739fa-433d-4f36-ab5e-530cbb5a3b87)
+![image](https://github.com/user-attachments/assets/5085ce3e-18cb-4e38-b17d-db11f7d4edf0)
+
 
 ![image](https://github.com/user-attachments/assets/2f4428d2-d202-4b59-87f0-548c939104de)
 
