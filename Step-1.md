@@ -335,7 +335,8 @@ Within the static-assignments folder, create a new assignment for uat-webservers
 - Commit your changes to your Git repository.
 - Create a Pull Request and merge it into the main branch.
 
-![image](https://github.com/user-attachments/assets/64eec96b-1e3a-4b13-a06e-5aa599bf757b)
+![image](https://github.com/user-attachments/assets/84c399a3-8474-4ea3-9dcb-2d192763c7cc)
+
 
 - Access your ansible-jenkins server and navigate to the ansible-config-artifact directory.
 - Run the playbook command.
