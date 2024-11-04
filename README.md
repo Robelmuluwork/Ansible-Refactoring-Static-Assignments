@@ -203,7 +203,7 @@ Output.
 Output.
 ![image](https://github.com/user-attachments/assets/bbe85f45-5b13-4dc6-ae94-5b455ac8e728)
 
-## 3- Configure UAT Webservers with a role 'Webserver'
+## Step -3- Configure UAT Webservers with a role 'Webserver'
 We have our nice and clean dev environment, so let us put it aside and configure 2 new Web Servers as uat. We could write tasks to configure Web Servers in the same playbook, but it would be too messy, instead, we will use a dedicated role to make our configuration reusable.
 
 1. Launch 2 fresh EC2 instances using RHEL 8 image, we will use them as our uat servers, so give them names accordingly - Web1-UAT and Web2-UAT.
